@@ -1,0 +1,147 @@
+/*Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    body h2{
+        font-size: 35px !important;
+    }
+    body h1 {
+        font-size: 40px !important;
+    }
+    body p {
+        font-size: 18px;
+    }
+
+    /* banner-start */
+    .banner img {
+        width: 300px;
+        height: auto;
+    }
+
+    /* quality  */
+    .q-content {
+        margin-left: 70px;
+    }
+    .c2-container {
+        width: 75%;
+        margin: auto;
+    }
+    .c2-container .content {
+        margin: 30px 10px;
+    }
+    .q-content {
+        margin-left: 70px !important;
+    }    
+    .meal2 {
+        display: block !important;
+    }
+    footer img {
+        width: 200px;
+    }
+    footer ul li a {
+        font-size: 13px;
+        margin: 0 5px;
+    }
+    .c-col {
+        width: 46%;
+        margin: 0 1%;
+        float: left;
+        overflow: hidden;
+        margin-bottom: 25px !important;
+    }
+    .c-col:nth-child(3n) {
+        margin-right: 1%;
+    }
+    .c-col:nth-child(2n) {
+        margin-right: 0 !important;
+    }
+    
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+     /* banner-start */
+     .banner img {
+        width: 450px;
+        height: auto;
+    }
+
+    /* quality  */
+    .q-content {
+        margin-left: 70px;
+    }
+
+    .meal2 {
+        display: block !important;
+    }
+    .cc-menu {
+        display: block !important;
+    }
+    .c-col {
+        width: 46%;
+        margin: 0 1%;
+        float: left;
+        overflow: hidden;
+        margin-bottom: 25px !important;
+    }
+    .c-col:nth-child(3n) {
+        margin-right: 1%;
+    }
+    .c-col:nth-child(2n) {
+        margin-right: 0 !important;
+    }
+    
+
+
+}
+
+
+/*Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .meal2 {
+        display: block !important;
+    }
+    .about .a-content {
+        margin-top: 30px;
+    }
+    .about img {
+        height: 350px;
+    }
+    .about .a-content h2{
+        font-size: 40px !important;
+    }
+    .about .a-content p {
+        font-size: 18px !important;
+    }
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .c-2-nav {
+        display: none;
+    }
+    .banner .content {
+        margin-top: 30px;
+    }
+
+    .meal2 {
+        display: block !important;
+    }
+   
+
+}
+
+
+/*Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    .c-2-nav {
+        display: none;
+    }
+
+}
